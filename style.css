@@ -11,8 +11,67 @@
 --cape-cod: #3c4442;
 }
 
-.header-{
-background-color: #1F2937;
-display: flex;
-jus
+*{
+}
+
+.header- {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 1 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.header-logo {
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-text-link {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.header-text-link:hover {
+  color: #DB2777;
+}
+
+.div-one {
+  background-color: #1F2937;
+  color: #fff;
+  font-size: 24px;
+  padding: 50px;
+}
+
+.div-one h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.div-one p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.div-one button {
+  background-color: #DB2777;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-redpanda{
+  
 }
