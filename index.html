@@ -1,63 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- to me, don't forget, this is a page about red pandas :) -->
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-    <header class="header-">
-        <h1 class="header-logo">header-logo</h1>
-        <nav class="header-nav">
-            <a class="header-text-link" href="">header-link-one</a>
-            <a class="header-text-link" href="">header-link-two</a>
-            <a class="header-text-link" href="">header-link-three</a>
-        </nav>
-    </header>
-    <main>
-        <div class="div-one">
+  </head>
+  <body>
+    <div class="first-section">
+      <nav class="navbar">
+        <div class="logo">Header Logo</div>
+        <ul class="nav-links">
+          <li><a href="#" class="nav-link">header link one</a></li>
+          <li><a href="#" class="nav-link">heder link two</a></li>
+          <li><a href="#" class="nav-link">header link three</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="content-left">
             <h1>This website is awesome</h1>
-            <p>
-                This website has some subtext that goes here under the main title.
-                It's a smaller font and the color is lower contrast
-            </p>
-            <button>Sing up</button>
-            <img class="main-redpanda" src="assets/img/redpanda-01.jpg" alt="">
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button class="sing-up" type="button">Sing up</button>
         </div>
-
-        <div>
-            <h2>Some random information.</h2>
-            <img src="" alt="" />
-            <p>this is some subtext under an illustration or image</p>
-            <img src="" alt="" />
-            <p>this is some subtext under an illustration or image</p>
-            <img src="" alt="" />
-            <p>this is some subtext under an illustration or image</p>
-            <img src="" alt="" />
-            <p>this is some subtext under an illustration or image</p>
+        <div class="content-right">
+            <img src="assets\img\redpanda-01.jpg" alt="A beautiful image" width="500">
         </div>
-
-        <div>
-            <h1>
-                This is an inspiring quote, or a testimonial from a customer. Maybe
-                it's just filing up space, or maybe people will actually read it. Who
-                knows? All i know is that it looks nice.
-            </h1>
-            <p>-Albert Einstein</p>
-        </div>
-
-        <div>
-            <h3>Call to action! It's time!</h3>
-            <p>Sing up for product by clicking that button right over there!</p>
-            <button>Sing Up</button>
-        </div>
-    </main>
-    <footer>Made by deogo 2023</footer>
-</body>
-
+      </div>
+    </div>
+  </body>
 </html>
