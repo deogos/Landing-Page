@@ -82,7 +82,7 @@ body{
     width: auto;
 }
 
-.sing-up-section-one{
+.sign-up-section-one{
     background-color: #3882F6;
     color: white;
     width: 100px;
@@ -144,4 +144,54 @@ body{
 .section-three p{
     margin-left: 50%;
     font-size: 20px;
+}
+
+.section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 60%;
+    height: 40%;
+    display: flex;
+}
+
+.signup-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+.signup-left h3{
+    font-size: 25px;
+}
+
+.signup-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 40%; 
+}
+.sign-up-section-four{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
