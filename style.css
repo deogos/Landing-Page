@@ -62,9 +62,10 @@ body{
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 100px;
+    gap: 10px;
 }
-/* TODO: Fix this part */
+
 .content-left h1{
     font-size: 48px;
     font-weight: bolder;
@@ -75,7 +76,7 @@ body{
     color: #E5E7EB;
     font-size: 18px;
 }
-/* TODO: Fix this part */
+
 .content-right img{
     margin: 50px;
     width: auto;
@@ -88,4 +89,33 @@ body{
     height: 40px;
     border: 1px #3882F6;
     border-radius: 10px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-two h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 100px;
+}
+
+.box{
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
 }
