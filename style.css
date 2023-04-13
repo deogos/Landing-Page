@@ -104,12 +104,18 @@ body{
     text-align: center;
 }
 
+.section-two p{
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+}
+
 .row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
+    max-width: 80%;
     margin: 100px;
 }
 
@@ -118,4 +124,24 @@ body{
     border-radius: 5px;
     width: 200px;
     height: 200px;
+}
+
+.section-three{
+    background-color: #E5E7EB;
+    height: 527px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-three h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+.section-three p{
+    margin-left: 50%;
+    font-size: 20px;
 }
